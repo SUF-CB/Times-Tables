@@ -1,3 +1,7 @@
+# Name of program-Timestables
+# programmer-Sufyaan Shaikh 
+# version 1.1
+# Date Created- 15/10/2020
 name = input("What's your name?")# First the user will get asked to input their name.
 print("Hi, " + name + "!")# welcomes user
 def Loop():
@@ -6,7 +10,7 @@ def Loop():
 
      for i in range(1, 13):
       print(num,"X",i,"=",num * i)
-     repeat = input("Do You want to enter another number? Yes or No >> ")#The user will be asked to input either Yes/NO if they want to input another number.
+     repeat = input("Do You want to enter another number? Yes or No >> ")#The user will be asked to input eithter Yes/NO if they want to input another number.
      if repeat == "Yes": # if the user inputs Yes as their answer it will output the message and praise the user by saying well done along with their  name.
                 Loop()
      else: #  if the user inputs No it will end and close the program automatically.
